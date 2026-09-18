@@ -1,6 +1,6 @@
-# Siyu Huang — Minimal Portfolio
+# Ashley Huang — Minimal Portfolio
 
-A minimal personal portfolio website for Siyu Huang, featuring research, science, art, and life.
+A minimal personal portfolio website for Ashley Huang, featuring research, science, art, and life.
 
 ## Pages
 - index.html
