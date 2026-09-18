@@ -1,0 +1,3 @@
+document.querySelectorAll('.hero-title, .hero-photo, .about-copy, .about-photo, .portfolio-card, .contact-simple, .project-intro, .project-feature, .gallery-item').forEach(el=>el.classList.add('fade-in'));
+const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('visible');});},{threshold:.08});
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
